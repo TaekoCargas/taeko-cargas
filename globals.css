@@ -1,7 +1,13 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-body {
-  font-family: Arial, sans-serif;
+/* css simples para evitar dependência de Tailwind */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f7fafc;
+  color: #222;
 }
+a { color: #065f46; text-decoration: none; }
+.container { max-width: 1100px; margin: 0 auto; padding: 20px; }
+.header { background:#0ea5a3; color:white; padding:20px; }
+.footer { background:#0b7285; color:white; text-align:center; padding:16px; margin-top:24px; }
+.card { background:white; padding:18px; border-radius:12px; box-shadow: 0 6px 18px rgba(0,0,0,0.06); margin-bottom:16px;}
